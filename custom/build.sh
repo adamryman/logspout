@@ -1,4 +1,5 @@
 #!/bin/sh
+set -x
 set -e
 apk add --update go build-base git mercurial ca-certificates
 mkdir -p /go/src/github.com/gliderlabs
