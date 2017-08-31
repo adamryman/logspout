@@ -1,5 +1,8 @@
 # Custom Logspout Builds
 
+- TODO:
+Redo build script/ dockerfile to use multistage docker builds in order to do everything locally
+
 Forking logspout to change modules is unnecessary! Instead, you can create an
 empty Dockerfile based on `gliderlabs/logspout:master` and include a new
 `modules.go` file as well as the `build.sh` script that resides in the root of
